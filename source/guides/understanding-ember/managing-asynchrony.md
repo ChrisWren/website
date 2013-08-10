@@ -48,7 +48,7 @@ PostView = View.extend({
   template: _.template("<h1><%= title %></h1><h2><%= author %></h2><div><%= body %></div>"),
 
   render: function() {
-    jQuery(this.element).html(this.template(this.model.toJSON());
+    jQuery(this.element).html(this.template(this.model.toJSON()));
     return this;
   }
 });
